@@ -39,7 +39,7 @@ form::before {
     width: 68px;
     background: url(images/3.png)
       no-repeat 0 0;
-    content: " ";
+    content: '';
 }
 .name, .pass {
     outline: none;
@@ -82,9 +82,7 @@ form::before {
     width: 20px; height: 20px;
     border: none;
 }
-.form-field {
-    position: relative;
-}
+
 .fa-user {
     font-size: 30px;
     position: absolute;
@@ -100,11 +98,11 @@ form::before {
     color: #927057;
 }
 .pass {
-    background: url(images/pass.png)
+    background: url(pass.png)
     no-repeat 12px 10px #EFE1C4;
 }
 
 .name {
-    background: url(images/user.png)
+    background: url(user.png)
     no-repeat 12px 10px #EFE1C4;
 }
