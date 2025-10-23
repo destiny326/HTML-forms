@@ -6,17 +6,21 @@ body {
     color:#ffffff;
 }
 
-.img-container{
-    text-align: center;
+.image-container > img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.image-container > img:first-child{
+    border: solid #d5c395;
+      margin-bottom: 5px;
     margin-top: 50px;
-    border: #d5c395;
 }
 
-.img-container > img {
-    border: 5px solid #d5c395;
-    height: 123px;
-}
-
+  
 
 form {
     position: relative;
